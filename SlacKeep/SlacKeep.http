@@ -1,0 +1,10 @@
+@SlacKeep_HostAddress = https://localhost:7070
+
+POST {{SlacKeep_HostAddress}}/slack/send
+Accept: application/json
+Content-Type: application/json
+
+{
+    "SlackChannel": "all-xmen",
+    "Message": "Hello, this is a test message!"
+}
